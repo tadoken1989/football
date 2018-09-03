@@ -1,0 +1,9 @@
+.top-ads {
+    display: none !important;
+}
+#livescore tr:not(.bg_LS3_web) {
+    /* Styles */
+}
+ins {
+    display: none !important;
+}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import url("frameForAll.css");
+
+.hide_menu, .show_menu{
+	border-color:#e2e2e2; /*for change*/
+	background-color: #fff; /*for change*/
+}
+
+.show_menu a, .hide_menu a{
+	color: #FFFFFF; /*for change*/
+	background-color: #1e6eab; /*for change*/
+	background-image: url(../images/layout/color/mask1.png); /*for change*/
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	text-align:left;/*for change*/
+}
+.hide_menu a:hover, .show_menu a:hover{
+	color: #666666;/*for change*/
+	background-color: #cecece; /*for change*/
+	background-image: url(../images/layout/color/mask1.png); /*for change*/
+}
+
+/*Add favoritemenu*/
+.favoritemenu, .btnTvStreaming, .searchTeam input, .searchTeam .btnSearch, .news {
+	border-color:#e2e2e2; /*for change*/
+}
+.favoritemenu, .btnTvStreaming, .news {
+	background-color: #fff; /*for change*/
+}
+.favoritemenu a, .btnTvStreaming a, .searchTeam .btnSearch > div, .news a {
+	color: #FFFFFF; /*for change*/
+	background-color: #1e6eab; /*for change*/
+	background-image: url(../images/layout/color/mask1.png); /*for change*/
+	text-align:left;/*for change*/
+}
+.favoritemenu a:hover, .btnTvStreaming a:hover, .searchTeam .btnSearch > div:hover, .news a:hover {
+	color: #666666;/*for change*/
+	background-color: #cecece; /*for change*/
+	background-image: url(../images/layout/color/mask1.png); /*for change*/
+}
